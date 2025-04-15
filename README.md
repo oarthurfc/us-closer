@@ -4,37 +4,20 @@ Aplicação web desenvolvida para o renomado YouTuber **[Gabriel de Pinho](https
 
 O objetivo do projeto é oferecer uma ferramenta intuitiva e precisa para **comparação de preços com impostos e taxas**, utilizando a **cotação atualizada do dólar** via API. Dessa forma, o usuário pode verificar se vale a pena importar produtos dos Estados Unidos usando os serviços da UsCloser.
 
+## 🧠 Funcionalidades
+
+- Comparação de preços entre produtos nacionais e internacionais
+- Cálculo automático de impostos e taxas
+- Integração com API de cotação do dólar em tempo real
+- Interface moderna e responsiva
+- Indicação visual de qual opção é mais vantajosa
+
 ## 🚀 Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-## 📂 Estrutura de Pastas
-
-```
-us-closer-main/
-├── public/
-│   └── favIcon.png
-├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   ├── Diference.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── InputField.jsx
-│   │   ├── Main.jsx
-│   │   └── PriceComparisonForm.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-```
 
 ## ⚙️ Instalação e Execução
 
@@ -58,14 +41,6 @@ npm run dev
 ```
 
 A aplicação estará disponível em `http://localhost:5173`.
-
-## 🧠 Funcionalidades
-
-- Comparação de preços entre produtos nacionais e internacionais
-- Cálculo automático de impostos e taxas
-- Integração com API de cotação do dólar em tempo real
-- Interface moderna e responsiva
-- Indicação visual de qual opção é mais vantajosa
 
 ## 📦 Build para produção
 
